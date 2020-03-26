@@ -5,7 +5,8 @@ module.exports = (api, options) => {
       build: "vue-cli-service build",
       lint: "vue-cli-service lint"
     },
-    dependencies: {
+    dependencies: {    
+      "axios": "^0.19.2",
       "core-js": "^3.6.4",
       "vue": "^2.6.11",
       "vue-router": "^3.1.5",

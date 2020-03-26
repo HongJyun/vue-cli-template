@@ -23,7 +23,6 @@
     ]
   },
   "javascript.format.enable": false,
-  "eslint.autoFixOnSave": true,
   "cSpell.words": ["Vuex"],
   "cSpell.ignorePaths": [
     "**/package.json",
