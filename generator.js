@@ -2,17 +2,19 @@ module.exports = (api, options) => {
   api.extendPackage({
     scripts: {
       serve: "vue-cli-service serve",
-      build: "vue-cli-service build",
+      build: "vue-cli-service build --mode prod",
       lint: "vue-cli-service lint"
     },
     dependencies: {    
       "axios": "^0.19.2",
       "core-js": "^3.6.4",
       "vue": "^2.6.11",
+      "vue-i18n": "^8.15.7",
       "vue-router": "^3.1.5",
       "vuex": "^3.1.2"
     },
     devDependencies: {
+      "@babel/parser": "^7.7.5",
       "@vue/cli-plugin-babel": "^4.2.0",
       "@vue/cli-plugin-eslint": "^4.2.0",
       "@vue/cli-plugin-router": "^4.2.0",
