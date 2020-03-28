@@ -8,6 +8,7 @@ module.exports = (api, options) => {
     dependencies: {    
       "axios": "^0.19.2",
       "core-js": "^3.6.4",
+      "vee-validate": "^3.2.5",
       "vue": "^2.6.11",
       "vue-i18n": "^8.15.7",
       "vue-router": "^3.1.5",
