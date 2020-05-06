@@ -4,12 +4,16 @@
     "stylelint-config-prettier",
     "stylelint-config-sass-guidelines"
   ],
-  "plugins": [
-    "stylelint-scss",
-    "stylelint-order"
-  ],
+  "plugins": ["stylelint-scss", "stylelint-order"],
   "rules": {
-    "max-nesting-depth": null,
+    "selector-max-id": null,
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["attribute", "class", "id"]
+      }
+    ],
+    "max-nesting-depth": 3,
     "no-empty-source": null,
     "no-descending-specificity": null,
     "order/properties-alphabetical-order": null,
@@ -30,7 +34,7 @@
       "margin",
       "margin-top",
       "margin-right",
-      "margin-bogttom",
+      "margin-bottom",
       "margin-left",
       "padding",
       "padding-top",
