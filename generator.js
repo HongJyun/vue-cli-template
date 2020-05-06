@@ -32,6 +32,12 @@ module.exports = (api, options) => {
       "lint-staged": "^9.5.0",
       "node-sass": "^4.12.0",
       "sass-loader": "^8.0.2",
+      "stylelint": "^13.3.3",
+      "stylelint-config-prettier": "^8.0.1",
+      "stylelint-config-sass-guidelines": "^7.0.0",
+      "stylelint-config-standard": "^20.0.0",
+      "stylelint-order": "^4.0.0",
+      "stylelint-scss": "^3.17.2",
       "vue-template-compiler": "^2.6.11"
     },
     gitHooks: {

@@ -1,5 +1,6 @@
 {
   // 可以刪除
+  "editor.tabSize": 2,
   "prettier.semi": false,
   "prettier.singleQuote": true,
 

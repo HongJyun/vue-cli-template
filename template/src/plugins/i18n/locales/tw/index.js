@@ -1,4 +1,4 @@
-{
+export default{
   "hello": "哈囉",
   "lang-tw": "中文",
   "lang-en": "英文",
