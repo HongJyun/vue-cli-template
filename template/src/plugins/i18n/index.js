@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 
-import tw from './locales/tw.js'
+import tw from './locales/tw'
 
 
 Vue.use(VueI18n)
